@@ -19,9 +19,9 @@ HTML PAGE:
 <img width="619" alt="Screen Shot 2022-06-08 at 2 32 34 PM" src="https://user-images.githubusercontent.com/98793962/172696086-04a0723e-ddc4-415d-9593-9ab19ace97d4.png">
 
 "Scrape New Data" button will load the lates news, images, and facts about mars. 
-News titles and summaries are scraped from [NASA Mars Exploration Program News](https://data-class-mars.s3.amazonaws.com/Mars/index.html). The featured images from the [Jet Propulsion Laboratory's Space Images](https://data-class-jpl-space.s3.amazonaws.com/JPL_Space/index.html). Mars hemisphere imagesfrom [Astropedia](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars). Mars facts table were scraped from [Galaxy Facts](https://data-class-mars-facts.s3.amazonaws.com/Mars_Facts/index.html). Scraping code was ran in [scraping.py] (https://github.com/schoolboycamel/mars_miss/blob/main/scraping.py).
+News titles and summaries are scraped from [NASA Mars Exploration Program News](https://data-class-mars.s3.amazonaws.com/Mars/index.html). The featured images from the [Jet Propulsion Laboratory's Space Images](https://data-class-jpl-space.s3.amazonaws.com/JPL_Space/index.html). Mars hemisphere imagesfrom [Astropedia](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars). Mars facts table were scraped from [Galaxy Facts](https://data-class-mars-facts.s3.amazonaws.com/Mars_Facts/index.html). Scraping code was ran in [scraping.py](https://github.com/schoolboycamel/mars_miss/blob/main/scraping.py).
 
-[app.py] (https://github.com/schoolboycamel/mars_miss/blob/main/app.py) allows us to extract the data and store it in Mongo DB.  A data base called "mars_app" was created, inside it, a collection called "mars" was also created, where all of our data is stored. 
+[app.py](https://github.com/schoolboycamel/mars_miss/blob/main/app.py) allows us to extract the data and store it in Mongo DB.  A data base called "mars_app" was created, inside it, a collection called "mars" was also created, where all of our data is stored. 
 Below we can see a screenshot confirming the data base and the collection.
 commands used:
 - "show dbs" which shows all data bases
