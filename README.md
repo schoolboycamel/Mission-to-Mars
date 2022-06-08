@@ -38,9 +38,16 @@ Three different bootstrap features where used.
 first two:
 
 - Along with Jumbotron, I inserted a background image, positioned it center, and  covered the whole jumbotron header 
-- H1 color was changed to white 
+- H1 color was changed to white.
+
+code:
 
 ![Screen Shot 2022-06-08 at 3 23 09 PM](https://user-images.githubusercontent.com/98793962/172700667-a048e11d-9403-4b06-8d09-fbcac3f58db2.png)
+
+Product:
+
+<img width="944" alt="image" src="https://user-images.githubusercontent.com/98793962/172702180-197d0024-75fc-4caa-a65e-a10f97f6f98d.png">
+
 
 Third bootstrap feature:
 
